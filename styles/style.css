@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*Header*/
+header{
+    background-color: #82B18F;
+    display: flex;
+    margin: 0;
+    z-index: 10;
+    width: 100%;
+    padding-top: 20px;
+}
+
+div h1{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul a{
+    color: #ffffff;
+    size: 34.92px;
+    margin-right: 60px;
+}
+
