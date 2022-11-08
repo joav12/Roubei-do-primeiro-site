@@ -7,20 +7,36 @@
 header{
     background-color: #82B18F;
     display: flex;
-    margin: 0;
-    z-index: 10;
-    width: 100%;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 0;
 }
 
-div h1{
+/*Header-Logo*/
+.diviLogo{
+    margin-right: 150px;
+    margin-left: 55px;
+}
+
+.diviLogo h1{
     background-color: #ffffff;
     padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
+/*Header-Lista*/
 ul{
     list-style-type: none;
     display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
 }
 
 ul a{
@@ -29,3 +45,62 @@ ul a{
     margin-right: 60px;
 }
 
+/*Header-bola*/
+.bolinhavermelha{
+    position: absolute;
+    background-color: #C94141;
+    width: 18px;
+    height: 18px;
+    left: 1117px;
+    top: 15px;
+    border-radius: 50px;
+}
+
+/*Body*/
+/*Body-Titulo*/
+.tituloBody{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.tituloBody h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 155px;
+    letter-spacing: 0em;
+}
+
+/*body-pesquisa*/
+.pesquisaBody{
+    margin: 0 auto;
+    display: flex;
+    border: solid 1px #ffffff;
+    box-shadow: 3px 3px 30px #9c9c9c;
+    border-radius: 50px;
+    width: 450px;
+    height: 50px;
+}
+
+/*Body-Src*/
+.ImgSrc{
+    width: 35px;
+    height: 35px;
+    margin-top: 6.5px;
+    margin-left: 15px;
+}
+
+/*Body-Input*/
+.pesquisaBody input{
+    border: solid 1px #ffffff;
+    width: 235px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Body-Mic*/
+.ImgMic{
+    width: 35px;
+    height: 35px;
+    margin-top: 6.5px;
+}
